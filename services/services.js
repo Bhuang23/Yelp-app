@@ -5,7 +5,7 @@ export default class services {
         try {
             //get business by name
             console.log(term)
-            let response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/getbusiness`,
+            let response = await axios.get(`http://localhost:4000/getbusiness`,
                 {
                     params:{
                         term: term.name
