@@ -1,0 +1,172 @@
+/* top level */
+.businesslist
+{
+    position: relative;
+    align-items: center;
+    vertical-align: middle;
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+.businesscontainer
+{
+    border: 1px solid black;
+    position: relative;
+    margin: 2% 25%;
+    display:flex;
+}
+.textcontainer
+{
+    text-align: left;
+    padding: 2% 1%;
+    width: 60%;
+}
+/*image*/
+
+.imagecontainer{
+    height: 220px;
+    padding: 2%;
+    display:flex;
+    justify-content: left;
+    width: 250px;
+}
+
+/* business info */
+
+.businesslisttitle{
+    position: relative;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+}
+.businessinfo
+{
+    padding: 3%;
+}
+.businessname
+{
+    font-size: 130%;
+    font-family: "Times New Roman", serif;
+    padding-bottom: 2%;
+}
+.businesscategories
+{
+    font-size: 90%;
+    font-family: "Times New Roman", serif;
+    padding-bottom: 2%;
+}
+.businessstatus
+{
+    margin-top: 1%;
+}
+.businessclosed
+{
+    color: black;
+    font-weight: bold;
+}
+.businessopen
+{
+    color: orangered;
+    font-weight: bold;
+}
+
+
+
+/*Search*/
+
+.businesslistsearch
+{
+    position: relative;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+}
+.businesslistsearchinput{
+    display:flex;
+    padding: 1% 3%;
+    width: 40%;
+    font-size: 16px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    border-radius: 10px;
+    border: 1px lightgrey solid;
+    position: relative;
+    white-space:nowrap;
+}
+/*Search Button */
+
+.businesslistsearchbutton
+{
+    padding: 0.7% 3%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+    border-radius: 5px;
+    background-color: darkblue;
+    font-size: 140%;
+    color: white;
+    border: 1px solid grey;
+    position: relative;
+
+}
+/*Feedback stars*/
+.clicked{
+    background-color: red;
+    color: white;
+    padding: 2%;
+    height: 100%;
+    border-radius: 5px;
+    margin: 1%;
+}
+.notclicked
+{
+    background-color: lightgrey;
+    color: gray;
+    padding: 2%;
+    margin: 1%;
+    height: 100%;
+    border-radius: 5px;
+}
+.businessfeedback
+{
+    display:block;
+    white-space:nowrap;
+    align-items:center;
+}
+.dashboardfeedbackscore
+{
+    display:flex;
+}
+
+/* ratings */
+
+.businessrating
+{
+    padding: 3% 3%;
+}
+.businesstotalreviews
+{
+    padding: 3%  2%;
+}
+/*Error message*/
+
+.error
+{
+    font-weight: bold;
+    font-size: 250%;
+    align-items: center;
+    color: orangered;
+    display:flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+.message
+{
+    font-weight: bold;
+    font-size: 250%;
+    align-items: center;
+    color: black;
+    display:flex;
+    margin-top: 5%;
+    justify-content: center;
+}

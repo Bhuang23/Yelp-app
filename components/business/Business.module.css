@@ -1,0 +1,159 @@
+/* top level */
+.business
+{
+    position: relative;
+    align-items: center;
+    vertical-align: middle;
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+.businesscontainer
+{
+    border: 1px solid black;
+    position: relative;
+    justify-content: center;
+    margin: 10% 19%;
+    display:flex;
+}
+.textcontainer
+{
+    text-align: left;
+    padding: 2% 1%;
+    width: 60%;
+}
+/*image*/
+
+.imagecontainer{
+    height: 350px;
+    padding: 2%;
+    display:flex;
+    justify-content: left;
+    width: 400px;
+}
+/*business info*/
+
+.businesslisttitle{
+    position: relative;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+}
+.businessinfo
+{
+    padding: 3%;
+}
+.businessname
+{
+    font-size: 130%;
+    font-family: "Times New Roman", serif;
+    padding-bottom: 2%;
+}
+.businesscategories
+{
+    font-size: 90%;
+    font-family: "Times New Roman", serif;
+    padding-bottom: 2%;
+}
+.businessstatus
+{
+    margin-top: 1%;
+}
+.businessclosed
+{
+    color: black;
+    font-weight: bold;
+}
+.businessopen
+{
+    color: orangered;
+    font-weight: bold;
+    font-size: 200%;
+}
+.businessaddress{
+    font-size: 120%;
+    padding-bottom: 4%;
+}
+.businessphone{
+    font-size: 110%;
+    padding-bottom: 4%;
+}
+.businessurlcontainer{
+    font-size: 120%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+}
+.businessurl{
+    text-decoration: none;
+}
+
+
+/*Search*/
+
+.businesslistsearch
+{
+    position: relative;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+}
+.businesslistsearchinput{
+    display:flex;
+    padding: 1% 3%;
+    width: 60%;
+    margin-bottom: 2%;
+    position: relative;
+    white-space:nowrap;
+}
+/*Feedback stars*/
+.clicked{
+    background-color: red;
+    color: white;
+    padding: 2%;
+    height: 100%;
+    border-radius: 5px;
+    margin: 1%;
+}
+.notclicked
+{
+    background-color: lightgrey;
+    color: gray;
+    padding: 2%;
+    margin: 1%;
+    height: 100%;
+    border-radius: 5px;
+}
+.businessfeedback
+{
+    display:block;
+    white-space:nowrap;
+    align-items:center;
+}
+.dashboardfeedbackscore
+{
+    display:flex;
+}
+
+/* ratings */
+
+.businessrating
+{
+    padding: 3% 3%;
+}
+.businesstotalreviews
+{
+    padding: 3%  2%;
+}
+/*Error message*/
+
+.error
+{
+    font-weight: bold;
+    font-size: 250%;
+    align-items: center;
+    color: orangered;
+    display:flex;
+    margin-top: 5%;
+    justify-content: center;
+}
